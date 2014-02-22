@@ -20,4 +20,8 @@ describe('numberTranslator', function() {
   it('returns the correct values for 11-19', function() {
     numberTranslator('17').should.equal('seventeen');
   });
+
+    it('returns the correct values for 11-19', function() {
+    numberTranslator('1700575').should.equal('seventeen');
+  });
 });
